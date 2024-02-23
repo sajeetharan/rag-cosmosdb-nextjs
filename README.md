@@ -1,14 +1,14 @@
-This is a Next.js project that uses Azure Cosmos DB to create a simple web experience that allows users to store their OpenAI ChatGPT sessions in a Cosmos DB instance.
+This is a Next.js project that uses Azure Cosmos DB to create a simple web experience that allows users to store their OpenAI ChatGPT sessions in a Azure Cosmos DB instance.
 
 The application uses data that was trained on the Contoso Real Estate dataset, which is available in the [here](https://github.com/Azure-Samples/contoso-real-estate).
 
 ## Getting Started
 
-### Cosmos DB
+### Azure Cosmos DB
 
-Before using this project, you need to create a Cosmos DB instance and a database with a collection. You can follow the [official documentation](https://learn.microsoft.com/azure/cosmos-db/nosql/quickstart-portal) to create a Cosmos DB instance.
+Before using this project, you need to create a Cosmos DB instance and a database with a collection. You can follow the [official documentation](https://learn.microsoft.com/azure/cosmos-db/nosql/quickstart-portal) to create a Azure Cosmos DB instance.
 
-When creating the Cosmos DB instance, choose the NOSQL API and the location that best suits your needs. Then, create a database and provide a [hierarchical Partition Key](https://learn.microsoft.com/azure/cosmos-db/hierarchical-partition-keys) of:
+When creating the Azure Cosmos DB instance, choose the NOSQL API and the location that best suits your needs. Then, create a database and provide a [hierarchical Partition Key](https://learn.microsoft.com/azure/cosmos-db/hierarchical-partition-keys) of:
 
 ```bash
 /UserId
